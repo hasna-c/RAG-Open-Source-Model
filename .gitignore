@@ -11,11 +11,7 @@ _pycache_/
 
 # Data and Results
 phi3_baseline_results_*.csv
-*.csv
-
-# Images/Graphs 
-*.png
-!phi3_inference_graph.png   
+*.csv  
 
 # Database / ChromaDB
 chroma_db/
