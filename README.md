@@ -5,18 +5,7 @@ This repository demonstrates how to load an open-source language model, quantize
 ---
 
 
-
-## Project Diagram
-
-![Inference graph](phy3_inference_graph.png)
-
-*Figure: Inference graph showing the model, tokenizer, retrieval, and QA/chat flow.*
-
----
-
 ## Overview
-
-This README documents:
 
 - Environment and dependencies
 - How to load a model (baseline script: `phi3_baseline.py`)
@@ -24,6 +13,15 @@ This README documents:
 - How to run inference locally and via the provided server (`phi3_server.py`)
 - How to set up document QA/chat with a Chroma vector store
 - Troubleshooting and notes about GPUs and Windows PowerShell commands
+  
+---
+
+
+## Project Diagram
+
+![Inference graph](phy3_inference_graph.png)
+
+*Figure: Inference graph showing the model, tokenizer, retrieval, and QA/chat flow.*
 
 ---
 
