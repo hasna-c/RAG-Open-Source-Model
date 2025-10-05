@@ -14,7 +14,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 MODEL_NAME = "microsoft/Phi-3-mini-4k-instruct"
 HF_TOKEN = os.getenv("HF_TOKEN", None)
 QUANTIZATION = "32bit"  # options: "8bit", "4bit", "fp16", "fp32"
-PDF_PATH = r"C:\Users\vishnuu\Projects\RAG\test.pdf"
+PDF_PATH = "test.pdf"
 
 # ---------- RAG MODEL ----------
 class RAGModel:
