@@ -7,12 +7,11 @@ This repository demonstrates how to load an open-source language model, quantize
 
 ## Overview
 
-- Environment and dependencies
-- How to load a model (baseline script: `phi3_baseline.py`)
-- How to quantize a model (8-bit/4-bit) using bitsandbytes and/or accelerate
-- How to run inference locally and via the provided server (`phi3_server.py`)
-- How to set up document QA/chat with a Chroma vector store
-- Troubleshooting and notes about GPUs and Windows PowerShell commands
+-  load a model (baseline script: `phi3_baseline.py`)
+-  quantize a model (8-bit/4-bit) using bitsandbytes and/or accelerate
+-  run inference locally and via the provided server (`phi3_server.py`)
+-  set up document QA/chat with a Chroma vector store
+-  Troubleshooting and notes about GPUs and Windows PowerShell commands
   
 ---
 
