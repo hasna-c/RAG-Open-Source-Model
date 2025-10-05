@@ -1,0 +1,13 @@
+torch>=2.0.0
+transformers>=4.30.0
+bitsandbytes>=0.39.0
+accelerate>=0.21.0
+sentence-transformers>=2.2.2
+chromadb>=0.3.28
+langchain>=0.0.310
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+peft>=0.3.0
+faiss-cpu>=1.7.4  # optional: use faiss-cpu or faiss-cuda if available
+python-dotenv>=1.0.0
+requests>=2.31.0

@@ -1,0 +1,36 @@
+# Python
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv
+
+# IDE and Editor Files
+.vscode/
+
+# Data and Results
+phi3_baseline_results_*.csv
+*.csv
+
+# Images/Graphs 
+*.png
+!phi3_inference_graph.png   
+
+# Database / ChromaDB
+chroma_db/
+offload/
+
+# PDFs and other artifacts
+*.pdf
+test.pdf
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
